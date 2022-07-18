@@ -7,4 +7,23 @@
 
 body {
     font-family: 'Hero', Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+
+.header {
+    background-color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.main-title { 
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
