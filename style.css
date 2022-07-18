@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Hero';
+    src: url(./fonts/Hero-Bold.otf) format('truetype'),
+         url(./fonts/Hero-Light.otf) format('truetype'),
+         url(./fonts/Hero-Regular.otf) format('truetype');
+}
+
+body {
+    font-family: 'Hero', Arial, Helvetica, sans-serif;
+}
