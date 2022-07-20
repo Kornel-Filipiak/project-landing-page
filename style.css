@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Hero-Regular', Arial, Helvetica, sans-serif;
+    font-size: 12px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -57,32 +58,107 @@ body {
 .random-info {
     display: flex;
     flex-direction: column;
+    text-align: center;
     justify-content: center;
     align-items: center;
+    padding-bottom: 60px;
+    
 }
 
 #title {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin: 30px 0px;
 }
 
 .media-content {
     display: flex;
-    
+    justify-content: center;
+    gap: 40px;
+
 }
+
 
 .media img {
     border: 2px solid #3882F6;
+    border-radius: 8px;
+    margin-bottom: -10px;
 }
 
-
+.media p {
+    max-width: 100px;
+    flex-wrap: wrap;
+}
 
 
 
 
 .quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
     background-color: #E5E7EB;
+    font-size: 36px;
+    font-family: 'Hero-Light';
+    font-style: italic;
+    font-weight: lighter;
+    padding: 0px 100px;
+
+
+}
+
+#main-quote {
+    /*max-width: 520px; */
+    margin-bottom: -30px;
+    
+}
+
+#author {
+    align-self: flex-end;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #E5E7EB;
+    height: 300px;
+
+}
+
+.call-content {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #3882F6;
+    border: #3882F6;
+    border-radius: 8px;
+    width: 700px;
+    padding: 10px 5px;
+}
+
+.call-content button {
+
+   
+    align-self: center;
+    border: 2px solid white;
+    margin-left: 50px;
+    
+}
+
+#main-call {
+    
+    font-size: 16px;
+    margin-bottom: -10px;
+}
+
+#follow-up{
+    font-family: 'Hero-Light';
+    font-weight: lighter;
 }
 
 
