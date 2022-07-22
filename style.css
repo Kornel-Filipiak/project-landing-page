@@ -22,7 +22,6 @@ body {
 
 .header-links,
 .top-bar,
-.header-links,
 .headline {
     display: flex;
 }
@@ -31,14 +30,20 @@ body {
     margin-left: auto;
 }
 
-.headline {
+.top-bar{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px 10px 0px 100px;
+}
 
+.headline {
+    justify-content: center;
     padding: 50px 50px;
     gap: 50px;
 }
 
 .container-left {
-    margin-right: auto;
+   max-width: 350px;
 }
 
 .main-title {
@@ -46,12 +51,12 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: -10px;
     
 }
 
 .headline img {
-    max-width: 400px;
-    margin-left: auto;
+    max-width: 300px;
 }
 
 
@@ -59,9 +64,8 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 60px;
+    padding: 10px 400px 60px 400px;
+
     
 }
 
@@ -74,8 +78,7 @@ body {
 
 .media-content {
     display: flex;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-around;
 
 }
 
@@ -98,26 +101,29 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-    
+    align-items: center;
     background-color: #E5E7EB;
-    font-size: 36px;
+    font-size: 30px;
     font-family: 'Hero-Light';
     font-style: italic;
     font-weight: lighter;
-    padding: 0px 100px;
+   
 
 
 }
 
 #main-quote {
-    /*max-width: 520px; */
-    margin-bottom: -30px;
+    max-width: 850px; 
+    margin-bottom: -10px;
     
 }
 
 #author {
-    align-self: flex-end;
+    font-family: 'Hero-Bold';
+    font-weight: bold;
+    font-size: 24px;
+    align-self: center;
+    margin-left: 600px;
 }
 
 .call-to-action {
@@ -127,6 +133,7 @@ body {
     font-weight: bold;
     color: #E5E7EB;
     height: 300px;
+    
 
 }
 
@@ -137,7 +144,8 @@ body {
     background-color: #3882F6;
     border: #3882F6;
     border-radius: 8px;
-    width: 700px;
+    width: 600px;
+    height: 70px;
     padding: 10px 5px;
 }
 
@@ -161,6 +169,19 @@ body {
     font-weight: lighter;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 60px;
+    
+
+}
+
+.footer div {
+  color: #F9FAF8;
+}
 
 
 ul {
